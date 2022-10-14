@@ -1,0 +1,14 @@
+.grid-item {
+    padding: 2.5px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+.grid-item:hover{
+  background-color: cadetblue;
+  color: black;
+}
+
+.found{
+  background-color: cadetblue;
+  color: black;
+}

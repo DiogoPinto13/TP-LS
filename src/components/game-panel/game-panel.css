@@ -1,0 +1,59 @@
+/**********************************************
+*** © Linguagens Script > DEIS > ISEC > IPC 
+*** Jogo de Memória em React
+*** Estilos para game-panel.componente.jsx 
+**********************************************/
+
+.game-panel {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.game-panel.disabled{
+  display: none;
+}
+
+#game-panel-grid.nothing{
+  display: none;
+  grid-template-columns: repeat(14, 30px);
+  grid-template-rows: repeat(14, 30px);
+  grid-gap: 2px;
+  justify-content: space-evenly;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  flex-grow: 0;
+}
+
+#game-panel-grid.basico{
+  display: grid;
+  grid-template-columns: repeat(14, 30px);
+  grid-template-rows: repeat(14, 30px);
+  grid-gap: 2px;
+  justify-content: space-evenly;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  flex-grow: 0;
+}
+
+#game-panel-grid.avancado {
+  display: grid;
+  grid-template-columns: repeat(18, 25px);
+  grid-template-rows: repeat(18, 25px);
+  grid-gap: 1px;
+  justify-content: space-evenly;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  flex-grow: 0;
+}
+
+#game-panel-grid.intermedio {
+  display: grid;
+  grid-template-columns: repeat(16, 27px);
+  grid-template-rows: repeat(16, 27px);
+  grid-gap: 1px;
+  justify-content: space-evenly;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  flex-grow: 0;
+}

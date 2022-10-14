@@ -1,0 +1,75 @@
+#add-word-panel {
+    background-color: #f1f0f0;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    font-size: smaller;
+    color: grey;
+    width: 100%;
+    margin: 15px 0px;
+    border: 3px solid var(--globalColor);
+}
+
+.disabled {
+    display: none;
+}
+
+#title-text {
+    padding: 5px;
+}
+
+.wordsDiv {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+}
+
+.user-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+.user-inputs input {
+    margin-top: 5px;
+}
+
+#btAdd {
+    border: 1px solid #150578;
+    background-color: #3943B7;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+    justify-self: end;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#btAdd:hover {
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid #150578;
+    background: var(--globalColor);
+}
+
+#btRemove {
+    border: 1px solid rgb(71, 2, 2);
+    background-color: darkred;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+    justify-self: end;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#btRemove:hover {
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid darkred;
+    background: rgb(71, 2, 2);
+}
+
+#txtWord {
+    width: fit-content;
+}
